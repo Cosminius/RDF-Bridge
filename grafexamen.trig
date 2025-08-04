@@ -1,0 +1,92 @@
+@prefix ci:     <http://cosminionut.ro/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+ci:Producatori {
+  ci:FromSoftware a schema:Organization ;
+    schema:location     "Tokyo, Japonia" ;
+    schema:foundingDate "1986"^^xsd:gYear ;
+    schema:employee     ci:HidetakaMiyazaki .
+
+  ci:Ubisoft a schema:Organization ;
+    schema:location     "Montreuil, Franta" ;
+    schema:foundingDate "1986"^^xsd:gYear ;
+    schema:employee     ci:YvesGuillemot .
+
+  ci:NaughtyDog a schema:Organization ;
+    schema:location     "Santa Monica, SUA" ;
+    schema:foundingDate "1984"^^xsd:gYear ;
+    schema:employee     ci:NeilDruckmann .
+
+  ci:CDProjekt a schema:Organization ;
+    schema:location     "Varsovia, Polonia" ;
+    schema:foundingDate "2002"^^xsd:gYear ;
+    schema:employee     ci:AdamBadowski .
+
+  ci:Rockstar a schema:Organization ;
+    schema:location     "New York, SUA" ;
+    schema:foundingDate "1998"^^xsd:gYear ;
+    schema:employee     ci:SamHouser .
+}
+
+ci:Jocuri {
+  ci:DarkSouls a schema:VideoGame ;
+    schema:creator      ci:FromSoftware ;
+    schema:datePublished "2011"^^xsd:gYear ;
+    schema:genre        "Action RPG" ;
+    schema:price        "50.45"^^xsd:decimal .
+
+  ci:EldenRing a schema:VideoGame ;
+    schema:creator      ci:FromSoftware ;
+    schema:datePublished "2022"^^xsd:gYear ;
+    schema:genre        "Open World RPG" ;
+    schema:price        "60.99"^^xsd:decimal .
+
+  ci:AssassinCreedBlackFlag a schema:VideoGame ;
+    schema:creator      ci:Ubisoft ;
+    schema:datePublished "2013"^^xsd:gYear ;
+    schema:genre        "Action-Adventure" ;
+    schema:price        "49.89"^^xsd:decimal .
+
+  ci:AssassinCreedMirage a schema:VideoGame ;
+    schema:creator      ci:Ubisoft ;
+    schema:datePublished "2023"^^xsd:gYear ;
+    schema:genre        "Stealth Action" ;
+    schema:price        "70.79"^^xsd:decimal .
+
+  ci:LastOfUs a schema:VideoGame ;
+    schema:creator      ci:NaughtyDog ;
+    schema:datePublished "2013"^^xsd:gYear ;
+    schema:genre        "Survival Horror" ;
+    schema:price        "30.98"^^xsd:decimal .
+
+  ci:Uncharted4 a schema:VideoGame ;
+    schema:creator      ci:NaughtyDog ;
+    schema:datePublished "2016"^^xsd:gYear ;
+    schema:genre        "Action-Adventure" ;
+    schema:price        "30.01"^^xsd:decimal .
+
+  ci:Witcher3 a schema:VideoGame ;
+    schema:creator      ci:CDProjekt ;
+    schema:datePublished "2015"^^xsd:gYear ;
+    schema:genre        "Fantasy RPG" ;
+    schema:price        "25.99"^^xsd:decimal .
+
+  ci:Cyberpunk2077 a schema:VideoGame ;
+    schema:creator      ci:CDProjekt ;
+    schema:datePublished "2020"^^xsd:gYear ;
+    schema:genre        "Sci-Fi RPG" ;
+    schema:price        "60.99"^^xsd:decimal .
+
+  ci:GradTheftAuto5 a schema:VideoGame ;
+    schema:creator      ci:Rockstar ;
+    schema:datePublished "2013"^^xsd:gYear ;
+    schema:genre        "Open World Action" ;
+    schema:price        "20.99"^^xsd:decimal .
+
+  ci:RedDeadRedemption2 a schema:VideoGame ;
+    schema:creator      ci:Rockstar ;
+    schema:datePublished "2018"^^xsd:gYear ;
+    schema:genre        "Western Action-Adventure" ;
+    schema:price        "80.45"^^xsd:decimal .
+} 

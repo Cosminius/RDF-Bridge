@@ -1,0 +1,20 @@
+{
+  "producatori": [
+    {
+      "name": " ",
+      "location": " ",
+      "foundingDate": " ",
+      "id": 0
+    }
+  ],
+   "jocuri": [
+    {
+      "name": " ",
+      "genre": " ",
+      "price": " ",
+      "year": " ",
+      "producerId": 0,
+      "id": 0
+    }
+  ]
+}

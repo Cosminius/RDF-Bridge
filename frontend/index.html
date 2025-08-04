@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>GetCoolGames</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        margin-top: 20px;
+        width: 100%;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+      }
+      th {
+        background-color: #f0f0f0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>_G_A_M_E_S_</h1>
+
+    <button type="button" id="btn1">
+      Buton 1 (aducere date interogate din RDF4J + afisare unificata in Tabel 1)
+    </button>
+
+    <div id="tabel1"></div>
+
+    <button type="button" id="btn2">Buton 2 (inserare in Server JSON 1)</button>
+
+    <div id="tabel2"></div>
+    <button type="button" id="btn3">
+      Buton 3 (aducere date interogate din Server JSON 1 + reafisare unificata
+      in Tabel 2 + populare Dropdown din formular)
+    </button>
+
+    <form id="form4">
+      <label>Game name: <input type="text" name="name" required /></label><br />
+      <label>Genre: <input type="text" name="genre" required /></label><br />
+      <label>Price: <input type="text" name="price" required /></label><br />
+      <label>Year: <input type="text" name="year" required /></label><br />
+      <label
+        >Producer:
+        <select name="producerId" id="dropdownProducers"></select> </label
+      ><br />
+      <button type="submit" id="btn4">
+        Buton 4 (inserare in Server JSON 2 a datelor din Tabel 2 + inregistrarea
+        din formular)
+      </button>
+    </form>
+
+    <button id="btn5">
+      Buton 5 (aducere date interogate din Server JSON 2 + reafisare unificata
+      in Tabel 3)
+    </button>
+    <div id="tabel3"></div>
+
+    <script src="scriptbuton1.js"></script>
+    <script src="scriptbuton2.js"></script>
+    <script src="scriptbuton3.js"></script>
+    <script src="scriptbuton4.js"></script>
+    <script src="scriptbuton5.js"></script>
+  </body>
+</html>

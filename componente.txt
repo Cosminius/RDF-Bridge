@@ -1,0 +1,13 @@
+componentele suplimentare necesare pentru rularea proiectului sunt:
+
+Python: Flask utilizand comanda: pip install flask
+Python: Flask-CORS utilizand comanda: pip install flask-cors
+
+si pip install requests
+
+proiectul poate fi pornit prin comanda python app.py
+in browser vom accesa localhost:5001
+
+
+am implementat doar cerintele pentru proeictul de nota 10 fara bonusuri
+am utilizat flask ca framework
