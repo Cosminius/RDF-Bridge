@@ -3,14 +3,14 @@
 RDF-Bridge is a JavaScript project for transforming and exposing data in RDF formats. The project contains two main directories: `backend` and `frontend`, and example files such as `grafexamen.trig` and `componente.txt`.
 
 Short and to the point — what you’ll find here:
-- backend/ — server code / conversion processes (Node.js)
-- frontend/ — web interface (if implemented)
+- backend/ — server code / conversion processes (Flask)
+- frontend/ — web interface 
 - grafexamen.trig — example graph/triples in TriG format
 - componente.txt — notes / component dependencies
 
 Prerequisites
-- Node.js (recommended v16+)
-- npm or yarn
+- Flask
+- Python
 
 Installation 
 1. Clone the repo:
