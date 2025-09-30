@@ -12,7 +12,7 @@ Prerequisites
 - Node.js (recommended v16+)
 - npm or yarn
 
-Installation (example)
+Installation 
 1. Clone the repo:
    git clone https://github.com/Cosminius/RDF-Bridge.git
 2. Install backend dependencies:
