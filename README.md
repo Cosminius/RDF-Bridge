@@ -1,44 +1,20 @@
 # RDF-Bridge
 
-RDF-Bridge este un proiect JavaScript pentru transformarea și expunerea de date în formate RDF. Proiectul conține două directoare principale: `backend` și `frontend`, plus fișiere de exemplu precum `grafexamen.trig` și `componente.txt`.
+RDF-Bridge is a JavaScript project for transforming and exposing data in RDF formats. The project contains two main directories: `backend` and `frontend`, and example files such as `grafexamen.trig` and `componente.txt`.
 
-Scurt și la obiect — ce găsești aici:
-- backend/ — codul serverului / proceselor de conversie (Node.js)
-- frontend/ — interfața web (dacă este implementată)
-- grafexamen.trig — exemplu de graf/triples în format TriG
-- componente.txt — notițe/dependențe componente
+Short and to the point — what you’ll find here:
+- backend/ — server code / conversion processes (Node.js)
+- frontend/ — web interface (if implemented)
+- grafexamen.trig — example graph/triples in TriG format
+- componente.txt — notes / component dependencies
 
-Prerechizite
-- Node.js (recomandat v16+)
-- npm sau yarn
+Prerequisites
+- Node.js (recommended v16+)
+- npm or yarn
 
-Instalare (exemplu)
-1. Clonează repo:
+Installation (example)
+1. Clone the repo:
    git clone https://github.com/Cosminius/RDF-Bridge.git
-2. Instalează dependențele backend-ului:
+2. Install backend dependencies:
    cd RDF-Bridge/backend
    npm install
-3. (Opțional) Instalează dependențele frontend-ului:
-   cd ../frontend
-   npm install
-
-Rulare (exemplu)
-- Backend:
-  cd backend
-  npm start
-- Frontend:
-  cd frontend
-  npm start
-
-Ce poți face rapid
-- Găsești un exemplu de date RDF în `grafexamen.trig`.
-- Verifică `componente.txt` pentru notițe despre componente/depencențe.
-
-Contribuire
-- Deschide un issue sau un pull request. Păstrează schimbările mici și documentate.
-
-Licență
-- Adaugă fișierul LICENSE sau specifică licența dorită (ex: MIT).
-
-Contact
-- Maintainer: Cosminius — https://github.com/Cosminius
